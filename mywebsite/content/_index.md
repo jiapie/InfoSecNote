@@ -10,3 +10,7 @@ images:
 ---
 
 # 首頁
+
+{{% panel status="primary" title="Note" icon="far fa-lightbulb" %}}
+The document hierarchy is unlimited.
+{{% /panel %}}

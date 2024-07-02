@@ -46,7 +46,7 @@ enableMissingTranslationPlaceholders = false
     # Documentation Menu section
     # Menu style settings 側邊選單樣式
     #menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
-    menu_style = "open-menu"
+    menu_style = ""
 
     # Date format
     dateformat = "" # default "2 Jan 2006"
@@ -55,13 +55,13 @@ enableMissingTranslationPlaceholders = false
     # path name excluded from documentation menu
     # 不想顯示的目錄
     menu_exclusion = [
-        #"getting-started",
+        "getting-started",
         #"sample",
-        #"chapter1",
+        "chapter1",
         "chapter2",
-        "chapter3",
+        #"chapter3",
         "chapter4",
-        "post",
+        #"post",
     ]
 
     # Algolia site search section
@@ -75,7 +75,7 @@ enableMissingTranslationPlaceholders = false
 # See https://gohugo.io/content-management/menus/
 #[menu]
     [[menu.main]]
-        name = "Home"
+        name = "HOME"
         url = "/"
         weight = 1
         identifier = 'home'
