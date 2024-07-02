@@ -46,7 +46,7 @@ enableMissingTranslationPlaceholders = false
     # Documentation Menu section
     # Menu style settings 側邊選單樣式
     #menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
-    menu_style = ""
+    menu_style = "open-menu"
 
     # Date format
     dateformat = "" # default "2 Jan 2006"
@@ -59,7 +59,7 @@ enableMissingTranslationPlaceholders = false
         #"sample",
         "chapter1",
         "chapter2",
-        #"chapter3",
+        "chapter3",
         "chapter4",
         #"post",
     ]
