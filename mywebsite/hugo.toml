@@ -1,10 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://jiapie.github.io/"
 
-#languageCode = "en-us"
 languageCode = "zh-TW"
-DefaultContentLanguage = "en"
-#title = "Hugo Techdoc Theme"
-title = "資安筆記"
+DefaultContentLanguage = "zh-tw"
+title = "Star's 資訊筆記"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -17,7 +15,7 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "put your description"
+    description = "亂七八糟的資料整理"
     github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
     version = "1.0.0"
 
@@ -36,31 +34,34 @@ enableMissingTranslationPlaceholders = false
     # Open Graph settings for each page are set on the front matter.
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
+    title = "Star's 資訊筆記"
     images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
     # Theme settings section
     # Theme color
     # See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
     custom_font_color = ""
-    custom_background_color = ""
+    custom_background_color = "#0B346E"
 
     # Documentation Menu section
-    # Menu style settings
-    menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+    # Menu style settings 側邊選單樣式
+    #menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+    menu_style = "open-menu"
 
     # Date format
     dateformat = "" # default "2 Jan 2006"
     # See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
 
     # path name excluded from documentation menu
+    # 不想顯示的目錄
     menu_exclusion = [
-        "archives",
-        "archive",
-        "blog",
-        "entry",
+        #"getting-started",
+        #"sample",
+        #"chapter1",
+        "chapter2",
+        "chapter3",
+        "chapter4",
         "post",
-        "posts",
     ]
 
     # Algolia site search section
@@ -72,23 +73,13 @@ enableMissingTranslationPlaceholders = false
 
 # Global menu section
 # See https://gohugo.io/content-management/menus/
-[menu]
+#[menu]
     [[menu.main]]
         name = "Home"
         url = "/"
         weight = 1
         identifier = 'home'
         pre = "<i class='fa fa-heart'></i>&nbsp;"
-
-    [[menu.main]]
-        name = "Twitter"
-        url = "https://twitter.com/thingsym"
-        weight = 2
-        identifier = 'twitter'
-        pre = "<b>pre!</b> "
-        post = " <b>post!</b>"
-        [menu.main.params]
-          class = 'twitter-menu-item'
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
