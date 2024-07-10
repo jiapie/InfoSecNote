@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>資訊安全 on Star&#39;s 資訊筆記</title>
-    <link>https://jiapie.github.io/infosec/</link>
+    <link>http://localhost:1313/infosec/</link>
     <description>Recent content in 資訊安全 on Star&#39;s 資訊筆記</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 17 Oct 2017 14:00:45 +0000</lastBuildDate>
-    <atom:link href="https://jiapie.github.io/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/infosec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>更新記錄</title>
-      <link>https://jiapie.github.io/infosec/3/</link>
-      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
-      <guid>https://jiapie.github.io/infosec/3/</guid>
+      <link>http://localhost:1313/infosec/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/infosec/4/</guid>
+      <description>&amp;nbsp;HISTORY ◎ 2024/07/09, 建立網站雛型。</description>
+    </item>
+    <item>
+      <title>相關證照</title>
+      <link>http://localhost:1313/infosec/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/infosec/3/</guid>
       <description>&amp;nbsp;HISTORY ◎ 2024/07/09, 建立網站雛型。</description>
     </item>
   </channel>
